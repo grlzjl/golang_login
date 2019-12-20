@@ -16,4 +16,4 @@
 * 项目go_login2
 * 接收post请求传送的json数据的验证
 * 判断用户名密码是否正确，返回json结果
-  * {"code":100,"data":null,"message":"登录成功"}
+  * 使用postman模拟请求得到返回数据{"code":100,"data":null,"message":"登录成功"}
