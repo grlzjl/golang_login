@@ -1,0 +1,16 @@
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /                         --> my-blog-by-go/routers.loadRouters.func1 (3 handlers)
+[GIN-debug] POST   /login                    --> my-blog-by-go/controllers.Login (3 handlers)
+[GIN-debug] POST   /upload                   --> my-blog-by-go/controllers.UpLoadFile (3 handlers)
+[GIN-debug] POST   /article                  --> my-blog-by-go/controllers.InsertPosts (3 handlers)
+[GIN-debug] POST   /article/:postid/like     --> my-blog-by-go/controllers.LikePosts (3 handlers)
+[GIN-debug] GET    /article                  --> my-blog-by-go/controllers.GetPosts (3 handlers)
+[GIN-debug] GET    /article/:postid          --> my-blog-by-go/controllers.GetPostById (3 handlers)
+[GIN-debug] GET    /get-labels               --> my-blog-by-go/controllers.GetLabels (3 handlers)
+[GIN-debug] GET    /get-categories           --> my-blog-by-go/controllers.GetCategoies (3 handlers)
+[GIN-debug] GET    /get-posts-by-label/:labelid --> my-blog-by-go/controllers.GetPostByLabelId (3 handlers)
+[GIN-debug] GET    /get-posts-by-category/:categoryid --> my-blog-by-go/controllers.GetPostByCategoryId (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8083
+[GIN] 2019/12/23 - 21:53:18 | 200 |            0s |             ::1 | POST     /login
+[GIN] 2019/12/23 - 21:53:27 | 200 |            0s |             ::1 | POST     /login
